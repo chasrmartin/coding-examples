@@ -1,4 +1,4 @@
-/** messing with a solution for Jack's homework 4 */
+/* Simple example of a binary tree in Java */
 
 class Node {
     Node left;
