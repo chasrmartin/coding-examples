@@ -3,7 +3,7 @@
 class Node {
     Node left;
     Node right;
-    int data ;
+    int data;
 
     Node(Node left, Node right, int data){
         this.left  = left;
@@ -18,12 +18,11 @@ class Node {
         this.right = right;
     }
     public Node getLeft(){
-        return this.left ;
+        return this.left;
     }
     public Node getRight(){
-        return this.right ;
+        return this.right;
     }
-
     public int getData(){
         return this.data;
     }
@@ -79,7 +78,6 @@ public class Search {
         System.out.println("\npost-order traversal");
         postOrder(one);
         System.out.println();
-        
 
         System.out.println("Done.");
     }
